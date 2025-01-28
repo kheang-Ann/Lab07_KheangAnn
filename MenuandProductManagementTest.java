@@ -33,14 +33,14 @@ public class MenuandProductManagementTest {
                     }
                     break;
                 case 2:
-                    System.out.print("Enter index of the product to find it: ");
+                    System.out.print("Enter name of the product to find it: ");
                     String find = scanner.nextLine();
                     productManager.findProduct(find);
                     break;
                 case 3: 
                     System.out.print("Enter name product to remove: ");
-                    String remove = scanner.nextLine();
-                    productManager.removeProduct(remove);
+                    name = scanner.nextLine();
+                    productManager.removeProduct(name);
                     break;
                 case 4: 
                     System.out.print("Enter old product name: ");
